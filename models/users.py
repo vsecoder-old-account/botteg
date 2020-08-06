@@ -17,7 +17,7 @@ def lalala(message):
             #/данные пользователя
             print("Имя: " + str(name) + " " + str(name1) + "\nСсылка: @" + str(url) + "\nID: " + str (iduser))
         elif message.text == '/help':
-            bot.send_message(message.chat.id, "Всё очень просто, вам надо ввести текст с тегами: <u></u>, <i></i>, <b></b>, и я переделаю текст с использованием тегов =)")
+            bot.send_message(message.chat.id, "Всё очень просто, вам надо ввести текст с тегами: <u>подчёркнутый</u>, <i>курсивный</i>, <b>толстый</b>, <a href='ссылка'>ссылка</a>, и я переделаю текст с использованием тегов =)")
         elif message.text == '/lol':
             bot.send_message(message.chat.id, "︻┳ั芫ี┳═─┵")
         elif message.text == '/spam':
